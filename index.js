@@ -131,7 +131,6 @@ client.on("message", function(message) {
     } else {
       const money = Math.floor((Math.random() * 100000) + 1);
       message.reply(`Here! I will give you $${money} for the daily money!`)
-      client.money.set(ID, client.money.get(ID) + money);
     }
     talkedRecently5.add(message.author.id);
     setTimeout(() => {
