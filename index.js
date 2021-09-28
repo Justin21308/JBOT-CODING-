@@ -97,6 +97,9 @@ client.on("message", function(message) {
     message.reply(`SPAM ALERT`);
     message.reply(`SPAM ALERT`);
   }
+  else if (command === "Aydan") {
+    message.reply(`Hi @Aydan!`);
+  }
   else if (command === "help") {
     message.reply(` prefix : \/\/   commands : priest, invite, bye, add () (), minus () (), multiply () (), divide () (), eat burger, eat hotdog, eat cheese, eat chicken, eat, chill, beg, hack, spam, ping, fish, hunt, dig, work, hello, oi, sticky mouth. Want to add it in your own server? Go to <https://discord.com/api/oauth2/authorize?client_id=855005762030927882&permissions=8&scope=bot> to add your very own JBot!`);
   }
